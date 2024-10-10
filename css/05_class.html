@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* a:link {
+            color: pink;
+        }
+
+        a:active {
+            color: black;
+        }
+
+        a:visited {
+            color: green;
+        }
+
+        a:hover {
+            background-color: red;
+            border-bottom: 1px solid white;
+            font-size: larger;
+        } */
+        p {
+            border: 1px solid red;
+        }
+
+        p::before {
+
+            content: url('img/house.jpeg');
+            background-color: red;
+
+        }
+
+        p::after {
+            content: url('img/house.jpeg');
+           
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="">Home</a>
+    <a href="">About</a>
+    <p>parth</p>
+</body>
+
+</html>

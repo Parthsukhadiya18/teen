@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            height: 100px;
+            
+            width: 100px;
+        }
+        .rev{
+            position: relative;
+        }
+        .img1{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: 1;
+            border: 1px solid red;
+        }
+        .img2{
+            position: absolute;
+            top: 0px;
+            left: 40px;
+            border: 1px solid green;
+            z-index: 2;
+        }
+        .img3{
+            position: absolute;
+            top: 0px;
+            left: 80px;
+            border: 1px solid yellow;
+            z-index: 3;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="rev">
+        <img src="img/house.jpeg" alt="" class="img1">
+        <img src="img/house.jpeg" alt="" class="img2">
+        <img src="img/house.jpeg" alt="" class="img3">
+    </div>
+</body>
+</html>
