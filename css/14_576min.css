@@ -1,0 +1,38 @@
+@media(min-width:576px) {
+    /* p {
+        border: 2px dotted rgb(247, 5, 46);
+    } */
+    nav{
+        /* border: 1px solid; */
+        display: flex;
+        width: 100%;
+        height: 50px;
+        background-color: beige;
+    }
+    .logo{
+        /* border: 1px solid red; */
+        width: 20%;
+    }
+    .logo h2{
+      
+        font-size: 35px;
+        margin: 0px 0px 1px 20px
+    }
+    .menu{
+        /* border: 1px solid green; */
+        width:80%;
+    }
+    ul{
+        text-align: end;
+        margin-top: 10px;
+    }
+    
+    li{
+        margin: 10px;
+    }
+    a{
+        
+        font-size: 16px;
+        margin: 0px 10px;
+    }
+}

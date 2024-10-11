@@ -1,0 +1,91 @@
+/* p {
+    border: 1px solid red;
+    color: green;
+    border-radius: 1%;
+    outline: 1px solid green;
+    outline-offset: 2px;
+} */
+ /* header  */
+nav{
+    /* border: 1px solid; */
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: beige;
+}
+.logo{
+    /* border: 1px solid red; */
+    width: 30%;
+}
+.logo h2{
+    font-family: monospace;
+font-size: 30px;
+margin: 5px 0px 1px 10px;
+}
+.menu{
+    /* border: 1px solid green; */
+    width:50%;
+}
+ul{
+    text-align: center;
+}
+
+li{
+    display: inline;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 5px;
+}
+/* main  */
+.main{
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+.main .left{
+    width: 50%;
+    border: 1px solid red;
+
+}
+.main .left h6{
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 0px 20px;
+}
+.main .left h3{
+    font-weight: 400;
+    font-size: 40px;
+    padding:0px 20px;
+}
+.main .left h3 span{
+   font-weight: bolder;
+    font-size: 40px;
+    
+}
+.main .left p{
+    font-weight: lighter;
+    font-size: 20px;
+    padding:0px 20px;
+}
+.main .left button{
+    
+    font-size: 20px;
+    margin: 20px 20px;
+    padding:10px 20px;
+    border-radius: 10px;
+    color: rgb(25, 123, 123);
+    border-color:rgb(25, 123, 123) ;
+}
+.main .right{
+    width: 50%;
+    border: 1px solid green;
+}
+.main .right img{
+  
+    height: 300px;
+    width: 100%;
+  
+}
