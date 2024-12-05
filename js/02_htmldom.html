@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        #pre{
+            color: red;
+        }
+        .parth{
+           display: none;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, molestias!</p>
+    <h1 id="h1"></h1>
+
+    <pre id="pre">Lorem.</pre>
+    <script>
+        document.write('parth')
+        // document.getElementById('p1').innerHTML='Nikunj'
+        document.querySelector('#p1').innerHTML = '<b>jeet</b>'
+        // document.querySelector('#h1').innerHTML = 'jeet'
+        document.querySelector('#h1').innerText = '<b>jeet</b>'
+        document.querySelector('#h1').style.color='red'
+           document.querySelector('#p1').style.color='red'
+
+
+            document.querySelector('#p1').style.border='1px solid red'
+             document.querySelector('#h1').style.borderTop='1px solid red'
+
+            //   document.querySelector('#pre').classList.add("parth")
+            //   document.querySelector('#pre').classList.remove("parth")
+
+
+
+    </script>
+</body>
+
+</html>
