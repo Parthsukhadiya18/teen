@@ -1,0 +1,35 @@
+@media (min-width:992px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        /* box-sizing: border-box; */
+    }
+
+    menu {
+        /* border: 1px solid red; */
+    }
+
+    .top {
+        display: flex;
+        width: 100%;
+
+        /* border: 1px solid green; */
+    }
+
+    .top .left {
+        /* border: 1px solid blue; */
+        width: 50%;
+        background-color: green;
+    }
+
+    .top .right {
+        /* border: 1px solid pink; */
+        width: 50%;
+    }
+
+    .top .right img {
+        height: 400px;
+        width: 100%;
+
+    }
+}

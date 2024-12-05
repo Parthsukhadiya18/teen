@@ -1,0 +1,30 @@
+@media (min-width:768px){
+    
+    menu{
+        /* border: 1px solid red; */
+    }
+    .top{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+
+     
+        /* border: 1px solid green; */
+    }
+    .top .left{
+        /* border: 1px solid blue; */
+        width: 50%;
+        background-color: red;
+    }
+    .top .right{
+        /* border: 1px solid pink; */
+        width: 50%;
+    }
+    
+    .top .right img{
+        height: 400px;
+        width: 100%;
+        display: block;
+       
+    }
+}

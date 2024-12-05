@@ -1,0 +1,30 @@
+@media (min-width:576px) {
+   
+
+   
+    .top {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+
+        
+    }
+
+    .top .left {
+        /* border: 1px solid blue; */
+        width: 100%;
+        
+    }
+
+    .top .right {
+        /* border: 1px solid pink; */
+        width: 100%;
+    }
+
+    .top .right img {
+        height: 200px;
+        display: none;
+        width: 100%;
+
+    }
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            height: 100px;
+            width: 100px;
+            /* border-radius: 50%; */
+            background-color: red;
+
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation-name: sujal;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes sujal {
+            /* from {
+
+                background-color: red;
+            }
+
+            to {
+
+                margin-left: 100px;
+                border-radius: 50%;
+                background-color: green;
+                border-bottom: 5px dotted blue;
+            } */
+
+            /* 20%{
+  
+            margin-left: 0px;
+            background-color: rgb(246, 235, 20);
+     }
+      40%{
+    
+           margin-left: 100px;
+            margin-top: 0px;
+            background-color: rgb(247, 10, 219);
+     }
+     75%{
+       
+            margin-left: 100px;
+            margin-top: 100px;
+            background-color: rgb(0, 255, 13);
+     } 
+     100%{
+       
+            margin-left: 0px;
+            margin-top: 100px;
+            background-color: rgb(60, 0, 255);
+     } */
+
+
+            from{
+       
+            background-color: red;
+            border-top: 5px dotted green;
+
+border-right: 5px dotted rgb(4, 0, 128);
+    }
+    to{
+           
+           
+            background-color: green;
+            transform:2s all  linear;
+            border-bottom: 5px dotted red;
+            border-left: 5px dotted rgb(111, 128, 0);
+    }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>Milap</div>
+</body>
+
+</html>
