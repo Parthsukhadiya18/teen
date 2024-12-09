@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="password" id="input1"> <br>
+    <input type="checkbox" onclick="add()">chaeck
+    <script>
+        let input1 = document.getElementById("input1")
+        function add(params) {
+            if (input1.type === "password") {
+                input1.type = "text"
+            } else {
+                input1.type = "password"
+            }
+        }
+    </script>
+</body>
+
+</html>
