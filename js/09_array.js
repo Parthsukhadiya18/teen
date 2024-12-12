@@ -58,9 +58,13 @@
 
 
 
-// a = ["parth","nikunj","jeet"];
+// a = [1,2,3,4,5,6];
+// console.log(a.splice(1,1,9,2,3));
+// console.log(a);
+
+
 // // console.log("splice ", a.splice(1)); a.splice(1)
-// // array (start, delete, add) 
+// array (start, delete, add) 
 // console.log("splice ", a.splice(1));
 // console.log("splice ", a);
 
@@ -80,21 +84,23 @@
 
 // let text = ["parth","jeet"]
 // console.log(text.toString());
-let num1 = [1,2,3,4]
+// let num1 = [1,2,3,4]
 
 // console.log(num1.fill("100"));
 // console.log(num1.fill("100",2));
 // console.log(num1.fill("100",1,3));
-console.log(num1.fill("100",1,2));
+// console.log(num1.fill("100",1,2));
 
 
 
 
+// let parth=" ";
 
+// text.forEach((element) => {
+//     parth += "\n"+  element  + "\n";
+// });
+// console.log(parth);
 
-// console.log(text.forEach((element) => {
-//     return element;
-// }));
 
 
 
