@@ -5,6 +5,7 @@ function RegistationForm() {
         username:"",
         email:"",
         password:"",
+        role:"user",
     })
     const[message,setMessage]=useState(0);
 
@@ -46,6 +47,12 @@ function RegistationForm() {
         <input type="email" name="email" value={formData.email} onChange={handleChange} required />
         Password:
         <input type="password" name="password" value={formData.password} onChange={handleChange} required />
+
+        <select name="role" value={formData.role} onChange={handleChange}>
+          <option value="user">user</option>
+          <option value="admin" >admin</option>
+
+        </select>
         <button type="submit">Register</button>
       </form>
     </div>
