@@ -1,0 +1,181 @@
+Write a C program to Write your name, date of birth, and mobile number.
+
+Write a program to convert given number of year and day.
+
+Write a program to Write a table.
+
+Write a C program to Write the your name in reverse order with characters.
+
+Write a C program that takes hours and minutes as input, and calculates the total number of minutes.
+
+Write a program to Write a swapping number.
+
+Write a program to check given number even or odd.
+
+Write a program to Write simple calculator.
+
+Write a program to make a square and cube of number.
+
+Write a program  to find the simple interest.
+
+write a program to check maximum number between two or three.
+
+Write a program to check number is division by 5 or 11. 
+
+Write a program to check given character is alphabet or not.
+
+Write a C program to Write numbers from 0 to 10 and 10 to 0 using do while loops.
+
+Write a C program that prompts the user to input a series of integers until the user stops entering 0 using a while loop. 			
+
+Calculate and Write the sum of all the positive integers entered.
+   
+write a program to check given character is alphabet,digit or special character.
+
+Write a program user enter the 5 subject marks. you have to make a total and find the percentage.
+
+Write a program to check given year is leap year or not.
+
+Write a program to check given character vowel or constant .
+
+Write a program to take a input number & check week or day.
+
+Write a program to given total numbers of note to given number.(ATM)
+
+Write a program to Write a table Write using do....while loop.
+
+Take a input from user whenever user not input value 94. 
+
+Write a program to take 1 to 100 and Write only even number.
+
+Write a program to not enterd zero until sum of all number.
+
+WAP of Addition, Subtraction, Multiplication and Division using Switch case.(Must Be Menu Driven)
+
+Write a program to food order system (ex :choose any one like 1.pizza 2.panipuri 3.coco) using  (do....while loop).                       
+
+Write a program to Write alphabet a to z ( loop ). 
+
+Write a program to Write number into reverse order.
+
+Write a program to make summation of given number (1234 -> 10)
+
+Write a program to find out the max number from given array using function.
+
+WAP to make addition, Subtraction and multiplication of two matrix using 2-D Array.
+
+WAP Find out length of string without using inbuilt function.
+
+WAP to reverse a string and check that the string is palindrome/not.
+
+Find convert Celsius to Fahrenheit
+find maximum between five numbers if else
+
+check positive, negative or zero using simple if else
+
+check whether a number is divisible by 5 and 11 or not if else
+
+if(num%5==0 && num%11==0)
+
+check whether a number is even or odd if else
+
+check Leap Year if else
+
+check whether a character is alphabet or notif else
+(ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')  
+
+program to check vowel or consonant if else(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u' || ch=='A' || ch=='E' || ch=='I' || ch=='O' || ch=='U')
+
+program to check whether a character is alphabet, digit or special if else if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) ( (ch >= '0' && ch <= '9'))
+
+character program to check whether a character is Uppercase or Lowercase if else if (ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')
+program to enter week number and Write day of week if else if
+
+program to find number of days in month if else if
+
+program to count total number of notes in given amount if else if
+if(amount >= 500) { note500 = amount/500; amount -= note500 * 500; }Writef("500 = %d\n", note500);
+
+program to check whether triangle is valid or not if angles are given a+b+c=180 if else if
+
+C program to check whether triangle is valid or not if sides are given b+c>a a+b>c a+c>b if else if
+
+C program to calculate profit or loss if else if
+
+C program to enter student marks and find percentage and grade if else if   If  percentage >= 90% : Grade A
+
+Write a C program to input the basic salary of an employee and calculate gross salary according to given conditions if else if.
+Basic Salary <= 10000 : HRA = 20%, DA = 80%
+Basic Salary is between 10001 to 20000 : HRA = 25%, DA = 90%
+Basic Salary >= 20001 : HRA = 30%, DA = 95%
+
+Write a  program to input electricity unit charge and calculate the       total electricity bill  condition if else if:
+first 50 units Rs. 0.50/unit
+next 100 units Rs. 0.75/unit
+next 100 units Rs. 1.20/unit
+unit above 250 Rs. 1.50/unit
+An additional surcharge of 20% is added to the bill.
+
+Write number of days in a month using switch case
+
+check vowel or consonant using switch case
+
+find maximum between two numbers using switch case
+
+check even or odd number using switch case
+
+check positive negative or zero using switch case
+
+create calculator using switch case and functions
+Make atm machine
+order bill payment
+Check Palindrome Number or not using while loop
+121=121 ,  143!=341  
+
+Check StrongNumber or not  using while loop
+145 = 1!+4!+5!= 1+24+120=145
+
+ Check ArmStrongNumber or not using while loop
+153 = 1^3+5^3+3^3= 1+125+27=153
+
+Count digit in the given number using while loop
+Writef table 1 while loop and do while
+Writef 1 to 10 while loop and do while
+Writef A to Z while loop and do while
+Writef 1 to 10  but 2 value for loop
+Writef 1 to 10 but not 9  for loop
+Writef table 1 to 20 but not even table  for loop
+Writef 1 to 100  but not 81 series for loop
+Write Fibonacci series program;0,1,1,2,3,5,8,.. for loop
+Write Perfect Number  for loop 6=1,2,3,4,5  (6%1==0) === 1+2+3=6
+Write Star patten for loop
+Write  Number pattern 1 to 10 for loop
+Write  Diamond pattern  for loop
+Write  A to z and reverse alphabet 26+13  for loop
+finds the lowest age among different ages array 
+finds the ascending age among different ages array 
+Write all negative elements in array
+find sum of array elements
+find maximum and minimum element in array
+find second largest number in array
+Write count even and odd elements in array
+Write count negative elements in array
+Write copy all elements of one array to another
+Write sum of  two matrices and  sub of two matrices
+Write sum three matrices
+Write multiply two matrices and div two matrices
+WAP to find factorial using recursion
+Write copy one string to another string
+Write concatenate two strings
+Write compare two strings
+Write  convert lowercase string to uppercase
+find total number of alphabets, digits or special characters in a string
+Write count total number of vowels and consonants in a string
+find reverse of a string
+find reverse order of words in a string
+Write a program of structure employee that provides the following information Write and display empno, empname,address and age.
+store different information about bike in struct
+store different information about student in struct
+store different information about book in struct
+store different information about school in struct
+store different information about you self in struct
