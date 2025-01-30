@@ -240,7 +240,7 @@ function Filter() {
             <Modal show={showCartModal} onHide={handleCartModalClose}>
                 <Modal.Header closeButton>
                     <Modal.Title>Your Cart</Modal.Title>
-                </Modal.Header>
+                </Modal.Header> 
                 <Modal.Body>
                     <ul>
                         {cart.map((item) => (
